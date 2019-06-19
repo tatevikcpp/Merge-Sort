@@ -4,7 +4,7 @@
 void Merge(int *arr, const int low, const int high, int mid)
 {
 	
-	int i, j, k, temp[7];
+	int i, j, k, temp[6];
 	i = low;
 	k = 0;
 	j = mid + 1;
@@ -76,12 +76,11 @@ void PrintArr(int *arr, int n)
 
 int main()
 {
-	int arr[] = { 18, 11, 13, 5, 6 , 1, 45};
+	int arr[] = { 18, 11, 13, 57, 1, 5};
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 
 	MergeSort(arr, 0, n - 1);
 	PrintArr(arr, n);
 
-	system("pause");
 }
