@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-void Merge(int *arr, const int low, const int high, int mid)
+void Merge(int *arr, int low, int high, int mid)
 {
 	
 	int i, j, k, temp[6];
